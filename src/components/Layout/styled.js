@@ -8,7 +8,7 @@ export const LayoutWrapper = styled.div`
   max-width: 1140px;
   /* Centraliza o conteudo */
   margin: 0 auto;
-  background: #ddd;
+  /* background: #ddd; */
 
   img {
     max-width: 100%;
@@ -17,8 +17,8 @@ export const LayoutWrapper = styled.div`
 
 export const SiteHeader = styled.header`
   display: flex;
-  background: #dde;
-  /* Title fica na esquerad e navigation na direita */
+  /* background: #51868c; */
+  /* Title fica na esquerda e navigation na direita */
   justify-content: space-between;
   padding: 20px 0;
   margin-bottom: 32px;

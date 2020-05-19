@@ -31,6 +31,10 @@ const GlobalStyles = createGlobalStyle`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
+  html {
+    /* Para utilizar o .REM mais facilmente */
+    /* font-size: 62.5% */
+  }
   body {
     line-height: 1;
   }
@@ -53,7 +57,8 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    /* background: #16202c; */
+    /* background: #F2EDD0; */
+    border-top: 10px solid #F27D52;
     line-height: 1;
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
