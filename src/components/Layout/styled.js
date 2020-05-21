@@ -8,6 +8,7 @@ export const LayoutWrapper = styled.div`
   max-width: 1140px;
   /* Centraliza o conteudo */
   margin: 0 auto;
+  margin-left: 400px;
   /* background: #ddd; */
 
   img {

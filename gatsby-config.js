@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Title`,
-    description: `Description`,
+    title: `Junior Alves`,
+    position: `Desenvolvedor Full-Stack`,
+    description: `Desenvolvedor e artista digital, escrevo sobre programação, pintura digital e livros. :)`,
     author: `@juniorAlves`,
   },
   plugins: [

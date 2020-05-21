@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const HeadLine = styled.div`
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 900;
   margin-bottom: 0.5rem;
   color: #132f40;
