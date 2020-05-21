@@ -4,6 +4,7 @@
 */
 
 // colors: #132F40, #51868C, #F2EDD0, #F27D52, #BF6C5A
+// colors: #6C748C, #273440, #F2F2EB, #BF8360, #8C5A4F
 
 import { createGlobalStyle } from 'styled-components';
 
