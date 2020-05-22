@@ -3,7 +3,9 @@
   License: none (public domain)
 */
 
+// Primary
 // colors: #132F40, #51868C, #F2EDD0, #F27D52, #BF6C5A
+
 // colors: #6C748C, #273440, #F2F2EB, #BF8360, #8C5A4F
 // color: #3A3E40, #F0F1F2, #BFB093, #8C7B6C, #A6756A
 
