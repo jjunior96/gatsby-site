@@ -5,15 +5,6 @@ import styled from 'styled-components';
 
 export const LayoutWrapper = styled.section`
   display: flex;
-  /* padding: 32px;
-  max-width: 1140px; */
-  /* margin: 0 auto; Centraliza o conteudo */
-  /* margin-left: 400px; */
-  /* background: #ddd; */
-
-  /* img {
-    max-width: 100%;
-  } */
 `;
 
 export const LayouyMain = styled.main`

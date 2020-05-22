@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SidebarWrapper = styled.aside`
   align-items: center;
-  background: #3a3e40;
+  background: #132f40;
   display: flex;
   flex-direction: column;
   /* 100% da altura do dispositivo */
