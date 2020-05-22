@@ -3,12 +3,28 @@ import styled from 'styled-components';
 // padding: espaçamento dentro do conteudo
 // margin: espaçamento fora do conteudo
 
-export const LayoutWrapper = styled.div`
-  padding: 32px;
-  max-width: 1140px;
-  /* Centraliza o conteudo */
-  margin: 0 auto;
-  margin-left: 400px;
+export const LayoutWrapper = styled.section`
+  display: flex;
+  /* padding: 32px;
+  max-width: 1140px; */
+  /* margin: 0 auto; Centraliza o conteudo */
+  /* margin-left: 400px; */
+  /* background: #ddd; */
+
+  /* img {
+    max-width: 100%;
+  } */
+`;
+
+export const LayouyMain = styled.main`
+  min-height: 100vh;
+  padding: 0 3.75rem 0 20rem;
+  width: 100%;
+
+  /* padding: 32px; */
+  /* max-width: 1140px; */
+  margin: 0 auto; /* Centraliza o conteudo */
+  margin-left: 4rem;
   /* background: #ddd; */
 
   img {

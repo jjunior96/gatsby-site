@@ -5,6 +5,19 @@
 
 // colors: #132F40, #51868C, #F2EDD0, #F27D52, #BF6C5A
 // colors: #6C748C, #273440, #F2F2EB, #BF8360, #8C5A4F
+// color: #3A3E40, #F0F1F2, #BFB093, #8C7B6C, #A6756A
+
+// color: #67618C
+// color: #89888C
+// color: #F0F0F2
+// color: #59554D
+// color: #26211F
+
+// color: #E1E6FA
+// color: #C4D7ED
+// color: #ABC8E2
+// color: #375D81
+// color: #183152
 
 import { createGlobalStyle } from 'styled-components';
 
@@ -61,7 +74,7 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     /* background: #F2EDD0; */
-    border-top: 10px solid #F27D52;
+    /* border-top: 10px solid #F27D52; */
     line-height: 1;
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
