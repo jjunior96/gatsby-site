@@ -4,16 +4,16 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 
-const About = () => {
+const Projects = () => {
   return (
     <Layout>
       <Helmet>
-        <title>About - Screen</title>
+        <title>Projects - Screen</title>
       </Helmet>
-      <h1>About Page</h1>
+      <h1>Projects Page</h1>
       <Link to="/contact">Contact</Link>
     </Layout>
   );
 };
 
-export default About;
+export default Projects;
