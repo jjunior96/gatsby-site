@@ -4,16 +4,16 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
-const Contact = () => {
+const Categories = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Contact</title>
+        <title>Categories</title>
       </Helmet>
-      <h1>Contact</h1>
+      <h1>Categories Page</h1>
       <Link to="/about">About</Link>
     </Layout>
   );
 };
 
-export default Contact;
+export default Categories;
