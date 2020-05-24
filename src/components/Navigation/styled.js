@@ -7,3 +7,8 @@ export const NavigationWrapper = styled.nav`
   font-weight: 300;
   justify-content: space-between;
 `;
+
+export const IconWrapper = styled.div`
+  color: #222f3e;
+  width: 30px;
+`;

@@ -8,7 +8,7 @@ const Header = () => {
     <S.HeaderWrapper>
       <S.HeadLine>Him, Im Junior</S.HeadLine>
       <S.Description>Description</S.Description>
-      <S.LinkButtom to="/contact">Get in Touch</S.LinkButtom>
+      <S.LinkButtom to="/categories">Get in Touch</S.LinkButtom>
     </S.HeaderWrapper>
   );
 };
