@@ -23,7 +23,7 @@ export const ProfileAuthor = styled.h1`
   margin: 0.5rem auto 1.5rem;
 `;
 
-export const ProfilePosition = styled.h3`
+export const ProfilePosition = styled.p`
   display: block;
   font-size: 1.2rem;
   font-weight: 300;

@@ -7,7 +7,7 @@ const MenuLinks = () => (
   <S.MenuLinksWrapper>
     <S.MenuLinksList>
       {links.map(link => (
-        <S.MenuLinksItem>
+        <S.MenuLinksItem key={Math.random()}>
           <S.MenuLinksLink to={link.url}>{link.label}</S.MenuLinksLink>
         </S.MenuLinksItem>
       ))}

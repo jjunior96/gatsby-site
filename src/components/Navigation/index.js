@@ -1,13 +1,18 @@
 import React from 'react';
-import { Link } from 'gatsby';
+
+import { FaRegLightbulb } from 'react-icons/fa';
+
+import SocialLinks from '../SocialLinks';
 
 import * as S from './styled';
 
 const Navigation = () => {
   return (
     <S.NavigationWrapper>
-      <Link to="/Contact">Contact</Link>
-      <p>Theme Change</p>
+      <SocialLinks />
+      <S.IconWrapper>
+        <FaRegLightbulb />
+      </S.IconWrapper>
     </S.NavigationWrapper>
   );
 };
