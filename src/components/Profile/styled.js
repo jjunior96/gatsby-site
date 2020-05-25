@@ -4,13 +4,13 @@ import { Link } from 'gatsby';
 export const ProfileWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  color: #f0f1f2;
+  color: #c8d6e5;
 `;
 
 export const ProfileLink = styled(Link)`
   text-decoration: none;
   transition: color 0.5s;
-  color: #f0f1f2;
+  color: #c8d6e5;
 
   &:hover {
     color: #abc8e2;
