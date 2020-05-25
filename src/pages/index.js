@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
 import Header from '../components/Header';
+import PostItem from '../components/PostItem';
 
 import SEO from '../components/seo';
 
@@ -14,6 +15,7 @@ const IndexPage = () => {
         <title>Home - Screen</title>
       </Helmet>
       <Header />
+      <PostItem />
     </Layout>
   );
 };
