@@ -1,17 +1,11 @@
 import React from 'react';
 
-// import { FaGithub as Github, FaLinkedinIn as Linkedin } from 'react-icons/fa';
-import {
-  Github,
-  LinkedinSquare as Linkedin,
-} from 'styled-icons/boxicons-logos';
-
 import links from './content';
-// import Icons from './Icons';
+import Icons from './Icons';
 
 import * as S from './styled';
 
-const Icons = [Github, Linkedin];
+// const Icons = [Github, Linkedin];
 
 const SocialLinks = () => (
   <S.SocialLinksWrapper>
