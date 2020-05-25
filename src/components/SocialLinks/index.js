@@ -1,6 +1,10 @@
 import React from 'react';
 
-import { FaGithub as Github, FaLinkedinIn as Linkedin } from 'react-icons/fa';
+// import { FaGithub as Github, FaLinkedinIn as Linkedin } from 'react-icons/fa';
+import {
+  Github,
+  LinkedinSquare as Linkedin,
+} from 'styled-icons/boxicons-logos';
 
 import links from './content';
 // import Icons from './Icons';
