@@ -21,12 +21,12 @@ export const SocialLinksLink = styled.a`
   transition: color 0.5s;
 
   &:hover {
-    color: #abc8e2;
+    color: #54a0ff;
   }
 `;
 
 export const IconWrapper = styled.div`
   fill: blue;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 `;

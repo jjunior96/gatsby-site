@@ -4,6 +4,7 @@ export const NavigationWrapper = styled.nav`
   display: flex;
   /* background: #fff; */
   align-items: center;
+  flex-direction: row;
   font-weight: 300;
   justify-content: space-between;
 `;
