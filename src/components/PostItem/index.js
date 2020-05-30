@@ -5,10 +5,10 @@ import * as S from './styled';
 const PostItem = () => (
   <S.PostItemWrapper>
     <S.PostItemCard>
-      <S.PostItemLink>
+      <S.PostItemLink to="/">
         <S.PostIemTag>TAG</S.PostIemTag>
       </S.PostItemLink>
-      <S.PostItemLink>
+      <S.PostItemLink to="/">
         <S.PostItemInfo>
           <S.PostiItemTitle>Titulo</S.PostiItemTitle>
           <S.PostItemDate>25 de Maio de 2020</S.PostItemDate>
@@ -17,10 +17,10 @@ const PostItem = () => (
     </S.PostItemCard>
 
     <S.PostItemCard>
-      <S.PostItemLink>
+      <S.PostItemLink to="/">
         <S.PostIemTag>TAG</S.PostIemTag>
       </S.PostItemLink>
-      <S.PostItemLink>
+      <S.PostItemLink to="/">
         <S.PostItemInfo>
           <S.PostiItemTitle>Titulo</S.PostiItemTitle>
           <S.PostItemDate>25 de Maio de 2020</S.PostItemDate>
@@ -29,10 +29,10 @@ const PostItem = () => (
     </S.PostItemCard>
 
     <S.PostItemCard>
-      <S.PostItemLink>
+      <S.PostItemLink to="/">
         <S.PostIemTag>TAG</S.PostIemTag>
       </S.PostItemLink>
-      <S.PostItemLink>
+      <S.PostItemLink to="/">
         <S.PostItemInfo>
           <S.PostiItemTitle>Titulo</S.PostiItemTitle>
           <S.PostItemDate>25 de Maio de 2020</S.PostItemDate>
