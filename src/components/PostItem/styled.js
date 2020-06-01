@@ -48,7 +48,7 @@ export const PostItemLink = styled(Link)`
 
 export const PostIemTag = styled.div`
   align-items: center;
-  background: purple;
+  background: ${props => (props.background ? props.background : 'purple')};
   color: #fff;
   display: flex;
   /* max-width: 400px; */
