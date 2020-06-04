@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import PostItem from '../components/PostItem';
+// import PostWrapper from '../components/PostWrapper';
 
 import SEO from '../components/seo';
 
@@ -28,7 +29,7 @@ const IndexPage = () => {
       }
     }
   `);
-  console.log(allMarkdownRemark);
+
   const postList = allMarkdownRemark.edges;
 
   return (
@@ -38,6 +39,7 @@ const IndexPage = () => {
         <title>Home - Screen</title>
       </Helmet>
       <Header />
+      {/* <PostWrapper /> */}
 
       {postList.map(
         ({
