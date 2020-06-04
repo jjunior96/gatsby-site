@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import * as S from './styled';
 
 const PostItem = ({ slug, background, category, date, title }) => (
-  <S.PostItemWrapper>
+  <>
     <S.PostItemCard>
       <S.PostItemLink to={slug}>
         <S.PostIemTag background={background}>{category}</S.PostIemTag>
@@ -16,7 +16,7 @@ const PostItem = ({ slug, background, category, date, title }) => (
         </S.PostItemInfo>
       </S.PostItemLink>
     </S.PostItemCard>
-  </S.PostItemWrapper>
+  </>
 );
 
 PostItem.propTypes = {

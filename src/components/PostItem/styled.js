@@ -11,14 +11,21 @@ export const PostItemWrapper = styled.section`
   /* grid-gap: 32px;
   margin-top: 32px; */
 
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  /* flex-wrap: wrap; */
   max-width: 960px;
   margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* @media only screen and (min-width: 1024px) {
+    .grids {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  } */
 `;
 
 export const PostItemCard = styled.article`
-  /* display: grid; */
+  display: grid;
   background-color: #fff;
   border-radius: 9px;
   /* border: 1px solid #c8d6e5; */
