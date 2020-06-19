@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import { FaRegLightbulb } from 'react-icons/fa';
-
 import SocialLinks from '../SocialLinks';
 // import ThemeChallenger from '../ThemeChallenger';
 

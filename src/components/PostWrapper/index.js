@@ -5,7 +5,7 @@ import * as S from './styled';
 
 const PostWrapper = () => (
   <S.PostItemWrapper>
-    <PostItem
+    {/* <PostItem
       slug="/about/"
       category="category"
       date="12121221"
@@ -13,7 +13,7 @@ const PostWrapper = () => (
       title="{title}"
       description="{description}"
       background="{background}"
-    />
+    /> */}
     <PostItem />
     <PostItem />
     <PostItem />
